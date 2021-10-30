@@ -1,6 +1,7 @@
 import React from "react";
 
 import Link from "next/link";
+import User from "../components/User";
 const Users = ({ users }) => {
   return (
     <center>
@@ -8,10 +9,7 @@ const Users = ({ users }) => {
         <a>Home</a>
       </Link>
       {users.map((user) => (
-        <div style={{ border: "1px solid #000", margin: "10px" }} key={user.id}>
-          <h3>{user.name}</h3>
-          <p>{user.email}</p>
-        </div>
+        <User key={user.id} user={user} />
       ))}
       <h1>List of users</h1>
     </center>
