@@ -7,7 +7,11 @@ const ProductDetails = () => {
 
   return (
     <div>
-      Product {productId} Details And Page No {pageId}
+      <h1>
+        <center>
+          Product {productId} Details And Page No {pageId}
+        </center>
+      </h1>
     </div>
   );
 };
