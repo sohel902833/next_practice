@@ -2,15 +2,12 @@ import React from "react";
 import Link from "next/link";
 const Index = () => {
   return (
-    <div>
-      <h1>Home page</h1>
-      <Link href="/blog">
-        <a>Blog</a>
+    <center>
+      <Link href="/users">
+        <a>Users</a>
       </Link>
-      <Link href="/product">
-        <a>Product</a>
-      </Link>
-    </div>
+      <h1>Hello</h1>
+    </center>
   );
 };
 
