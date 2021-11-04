@@ -1,39 +1,89 @@
 {
+  "news": [
+    {
+      "title": "Yoshi's birthday bash",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "gender": "male",
+      "id": 1
+    },
+    {
+      "title": "Complete my ninja training",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.",
+      "gender": "female",
+      "id": 2
+    },
+    {
+      "title": "Order a pizza!",
+      "details": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.\nLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+      "gender": "other",
+      "id": 3
+    },
+    {
+      "title": "asdf",
+      "details": "asdf",
+      "gender": "other",
+      "id": 4
+    },
+    {
+      "title": "asdf",
+      "details": "asdf",
+      "gender": "other",
+      "id": 5
+    },
+    {
+      "title": "asdf",
+      "details": "asdf",
+      "gender": "female",
+      "id": 6
+    },
+    {
+      "title": "asd",
+      "details": "asdf",
+      "gender": "male",
+      "id": 7
+    },
+    {
+      "title": "asdf",
+      "details": "asdf",
+      "gender": "male",
+      "id": 8
+    }
+  ],
   "products": [
     {
       "id": 1,
       "title": "Product 1",
-      "price": 10000,
+      "price": 1000,
       "description": "Description 1"
     },
     {
       "id": 2,
       "title": "Product 2",
-      "price": 50,
+      "price": 200,
       "description": "Description 2"
     },
     {
       "id": 3,
       "title": "Product 3",
-      "price": 30,
+      "price": 300,
       "description": "Description 3"
     },
     {
       "id": 4,
       "title": "Product 4",
-      "price": 40,
+      "price": 4000,
       "description": "Description 4"
     },
     {
       "id": 5,
       "title": "Product 5",
-      "price": 500,
+      "price": 5000,
       "description": "Description 5"
     },
     {
       "id": 6,
       "title": "Product 6",
-      "price": 60,
+      "price": 6000,
       "description": "Description 6"
     }
   ]
