@@ -9,6 +9,9 @@ const Index = () => {
       <Link href="/posts">
         <a>Posts</a>
       </Link>
+      <Link href="/products">
+        <a>Products</a>
+      </Link>
       <h1>Hello</h1>
     </center>
   );
