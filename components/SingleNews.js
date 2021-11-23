@@ -11,13 +11,13 @@ const SingleNews = ({ news }) => {
         cursor: "pointer",
       }}
     >
-      {/* <Link href={`/products/${product.id}`} passHref>*/}
-      <div>
-        <h1>Title: {news.title}</h1>
-        <h3>Gender: {news.gender}</h3>
-        <p>Desc: {news.details}</p>
-      </div>
-      {/* </Link> */}
+      <Link href={`/news/${news.gender}`} passHref>
+        <div>
+          <h1>Title: {news.title}</h1>
+          <h3>Gender: {news.gender}</h3>
+          <p>Desc: {news.details}</p>
+        </div>
+      </Link>
     </div>
     //
   );
